@@ -5,6 +5,7 @@ author: Ramona Jühlen
 date: 2023-03-22
 categories: ["Plots"]
 tags: ["ggplot2", "viridis", "ggstatsplot"]
+output: md_document
 ---
 
 ```{r setup}

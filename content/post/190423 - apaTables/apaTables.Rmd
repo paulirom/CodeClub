@@ -5,6 +5,7 @@ author: Roman Pauli
 date: 2023-04-19
 categories: ["Tables"]
 tags: ["apaTables", "correlation", "regression"]
+output: md_document
 ---
 
 Many journals require authors to report results in the style required by the American Psychological Association (APA Style).  
