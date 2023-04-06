@@ -1,0 +1,33 @@
+---
+title: "Labmeeting"
+output: html_document
+runtime: shiny      
+date: "2023-03-13"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+## Mitotic chromosome periphery
+
+```{r lit_table}
+library("here")
+library(readr)
+library(dplyr)
+
+screens <- read_delim("screens.csv", delim = "\t", escape_double = FALSE, trim_ws = TRUE)
+screens_grouped <- screens %>% group_by(Protein)
+screens_sum <- screens_grouped %>% summarise(n = n())
+proteins <- screens_sum$Protein
+
+selectInput("variable", "Protein", proteins)
+renderTable({
+  subset(screens, Protein == input$variable)
+})
+```

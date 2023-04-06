@@ -1,16 +1,15 @@
 ---
 comments: false
-subtitle: Why you'd want to go on a date with me
-title: About me
+title: UKA Code Club
+subtitle: Dear fellow CodeClubbers!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+This Blog is an attempt to document the content of our CodeClub sessions in a transparent and accessible way. It uses the *blogdown* package to compile several independent .Rmd files into one single Blog.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+If you'd like your Markdown to be included in the CodeClub HTML documentation:
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+  - paste your .Rmd to the ***CodeClubWebsite*** directory on OneDrive
+  - make sure, wd is properly set and all dependencies are correctly defined
+  - add a reference to your HTML in _site.yml  
+  
+For more information about simple R Markdown websites, please read the [documentation](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html).

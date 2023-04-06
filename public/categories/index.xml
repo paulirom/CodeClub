@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on UKA Code Club</title>
+    <link>https://ukarcodeclub.netlify.app/categories/</link>
+    <description>Recent content in Categories on UKA Code Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rpauli@ukaachen.de (Roman Pauli)</managingEditor>
+    <webMaster>rpauli@ukaachen.de (Roman Pauli)</webMaster><atom:link href="https://ukarcodeclub.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

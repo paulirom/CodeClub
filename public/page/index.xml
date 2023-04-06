@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on UKA Code Club</title>
+    <link>https://ukarcodeclub.netlify.app/page/</link>
+    <description>Recent content in Pages on UKA Code Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rpauli@ukaachen.de (Roman Pauli)</managingEditor>
+    <webMaster>rpauli@ukaachen.de (Roman Pauli)</webMaster><atom:link href="https://ukarcodeclub.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UKA Code Club</title>
+      <link>https://ukarcodeclub.netlify.app/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>rpauli@ukaachen.de (Roman Pauli)</author>
+      <guid>https://ukarcodeclub.netlify.app/page/about/</guid>
+      <description>This Blog is an attempt to document the content of our CodeClub sessions in a transparent and accessible way. It uses the blogdown package to compile several independent .Rmd files into one single Blog.
+If you&amp;rsquo;d like your Markdown to be included in the CodeClub HTML documentation:
+paste your .Rmd to the CodeClubWebsite directory on OneDrive make sure, wd is properly set and all dependencies are correctly defined add a reference to your HTML in _site.</description>
+    </item>
+    
+  </channel>
+</rss>
