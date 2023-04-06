@@ -1,6 +1,7 @@
 ---
-title: "APA-Style Tables"
-author: "Roman Pauli"
+title: APA-Style Tables
+subtitle: Create publication-ready Correlation and Regression Tables 
+author: Roman Pauli
 date: 2023-04-19
 categories: ["Tables"]
 tags: ["apaTables", "correlation", "regression"]
