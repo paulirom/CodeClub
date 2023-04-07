@@ -23,7 +23,7 @@ These are the steps to follow to contribute your post to the weblog:
   - change the contents of and/or add code to that *.md*
   - done! Your contribution will be posted with the next update of the weblog.
 
-\
+<br/>
 
 # How this Template works
 
@@ -36,7 +36,7 @@ to your post will automatically be listed in the index of the weblog.
 Please leave the *output* command as is, as the resulting *.md* file is
 the one that will be used to render your contribution in the weblog.
 
-\
+<br/>
 
 # Use Section Headers
 
@@ -50,7 +50,7 @@ indicate the section level, i.e. one *\#* is indicates level 1, two
 
 #### This is a level 4 header
 
-  
+<br/>
 
 # Include Code Sections
 
@@ -73,7 +73,8 @@ post. Here is another example of the combination of code and output:
     ## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
     ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 
-  
+
+<br/>
 
 # Include Images and Figures
 
@@ -90,7 +91,7 @@ as the page that will use the image. In most cases, this is the working
 directory of your R project. An easy fix is to first upload the image to
 the weblog’s Github folder and from there reference it via hyperlink.
 
-  
+<br/>
 
 # Include Hyperlinks to Additional Resources
 
