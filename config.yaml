@@ -1,6 +1,6 @@
 baseurl: "https://ukarcodeclub.netlify.app/"
 DefaultContentLanguage: en
-title: UKA R Code Club
+title: ukaR Code Club
 theme: beautifulhugo
 pygmentsStyle: trac
 pygmentsUseClasses: yes
@@ -12,7 +12,7 @@ Params:
   dateFormat: January 2, 2006
   delayDisqus: yes
   favicon: img/favicon.ico
-  logo: img/avatar-icon.png
+  logo: ukaR.png
   mainSections:
     - post
     - posts
@@ -20,7 +20,7 @@ Params:
   rss: no
   showRelatedPosts: yes
   socialShare: no
-  subtitle: A weblog to document the activities of the UKA R Code Club
+  subtitle: A weblog to document the activities of the ukaR Code Club
   useHLJS: yes
   wordCount: yes
 Author:
