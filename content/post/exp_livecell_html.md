@@ -3,7 +3,6 @@ title: Data Visualization
 subtitle: Create Plots including Results from Statistical Tests
 author: Ramona Jühlen
 date: 2023-03-22
-categories: ["Plots"]
 tags: ["ggplot2", "viridis", "ggstatsplot"]
 ---
 
