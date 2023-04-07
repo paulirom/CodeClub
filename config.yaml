@@ -1,6 +1,6 @@
 baseurl: "https://ukarcodeclub.netlify.app/"
 DefaultContentLanguage: en
-title: UKA R Code Club
+title: UKA R Code Club Test
 theme: beautifulhugo
 pygmentsStyle: trac
 pygmentsUseClasses: yes

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on UKA Code Club</title>
+    <title>Categories on UKA R Code Club Test</title>
     <link>https://ukarcodeclub.netlify.app/categories/</link>
-    <description>Recent content in Categories on UKA Code Club</description>
+    <description>Recent content in Categories on UKA R Code Club Test</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>rpauli@ukaachen.de (Roman Pauli)</managingEditor>
-    <webMaster>rpauli@ukaachen.de (Roman Pauli)</webMaster><atom:link href="https://ukarcodeclub.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>rpauli@ukaachen.de (Roman Pauli)</webMaster>
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ukarcodeclub.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plots</title>
+      <link>https://ukarcodeclub.netlify.app/categories/plots/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      <author>rpauli@ukaachen.de (Roman Pauli)</author>
+      <guid>https://ukarcodeclub.netlify.app/categories/plots/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

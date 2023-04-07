@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UKA R Code Club Test</title>
-    <link>https://ukarcodeclub.netlify.app/</link>
-    <description>Recent content on UKA R Code Club Test</description>
+    <title>ggstatsplot on UKA R Code Club Test</title>
+    <link>https://ukarcodeclub.netlify.app/tags/ggstatsplot/</link>
+    <description>Recent content in ggstatsplot on UKA R Code Club Test</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>rpauli@ukaachen.de (Roman Pauli)</managingEditor>
     <webMaster>rpauli@ukaachen.de (Roman Pauli)</webMaster>
-    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ukarcodeclub.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ukarcodeclub.netlify.app/tags/ggstatsplot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Visualization</title>
       <link>https://ukarcodeclub.netlify.app/post/exp_livecell_html/</link>
@@ -15,17 +15,6 @@
       <author>rpauli@ukaachen.de (Roman Pauli)</author>
       <guid>https://ukarcodeclub.netlify.app/post/exp_livecell_html/</guid>
       <description>library(knitr) opts_chunk$set( echo = TRUE, message = FALSE, warning = FALSE ) here package library(&amp;#34;here&amp;#34;) # getwd() ggplot2 library(ggplot2) results &amp;lt;- read.csv(&amp;#34;results.csv&amp;#34;) #plot mean and SE of data r &amp;lt;- ggplot(results, aes(timepoint, normalized_area, color = construct)) + labs(y = &amp;#34;y&amp;#34;, x = &amp;#34;x&amp;#34;) + ggtitle(&amp;#34;&amp;#34;) + guides(colour = guide_legend(title = &amp;#34;&amp;#34;)) + stat_summary(fun = mean, geom = &amp;#34;line&amp;#34;) + stat_summary(fun.data = mean_se, geom = &amp;#34;pointrange&amp;#34;, size = 0.25) r #lay out panels in a grid s &amp;lt;- r + facet_grid(cols = vars(rapa)) s viridis package Colorblind-friendly color maps</description>
-    </item>
-    
-    <item>
-      <title>UKA Code Club</title>
-      <link>https://ukarcodeclub.netlify.app/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>rpauli@ukaachen.de (Roman Pauli)</author>
-      <guid>https://ukarcodeclub.netlify.app/page/about/</guid>
-      <description>This Blog is an attempt to document the content of our CodeClub sessions in a transparent and accessible way. It uses the blogdown package to compile several independent .Rmd files into one single Blog.
-If you&amp;rsquo;d like your Markdown to be included in the CodeClub HTML documentation:
-paste your .Rmd to the CodeClubWebsite directory on OneDrive make sure, wd is properly set and all dependencies are correctly defined add a reference to your HTML in _site.</description>
     </item>
     
   </channel>

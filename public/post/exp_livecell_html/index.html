@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Data Visualization - </title>
+
+  <meta name="description" content="Create Plots including Results from Statistical Tests">
+  <meta name="author" content="Roman Pauli"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "UKA R Code Club Test",
+    
+    "url": "https:\/\/ukarcodeclub.netlify.app\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/ukarcodeclub.netlify.app\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/ukarcodeclub.netlify.app\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/ukarcodeclub.netlify.app\/post\/exp_livecell_html\/",
+          "name": "Data visualization"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Ramona Jühlen"
+  },
+  "headline": "Data Visualization",
+  "description" : "library(knitr) opts_chunk$set( echo = TRUE, message = FALSE, warning = FALSE ) here package library(\u0026#34;here\u0026#34;) # getwd() ggplot2 library(ggplot2) results \u0026lt;- read.csv(\u0026#34;results.csv\u0026#34;) #plot mean and SE of data r \u0026lt;- ggplot(results, aes(timepoint, normalized_area, color = construct)) \u002b labs(y = \u0026#34;y\u0026#34;, x = \u0026#34;x\u0026#34;) \u002b ggtitle(\u0026#34;\u0026#34;) \u002b guides(colour = guide_legend(title = \u0026#34;\u0026#34;)) \u002b stat_summary(fun = mean, geom = \u0026#34;line\u0026#34;) \u002b stat_summary(fun.data = mean_se, geom = \u0026#34;pointrange\u0026#34;, size = 0.25) r #lay out panels in a grid s \u0026lt;- r \u002b facet_grid(cols = vars(rapa)) s viridis package Colorblind-friendly color maps",
+  "inLanguage" : "en",
+  "wordCount":  271 ,
+  "datePublished" : "2023-03-22T00:00:00",
+  "dateModified" : "2023-03-22T00:00:00",
+  "image" : "https:\/\/ukarcodeclub.netlify.app\/img\/avatar-icon.png",
+  "keywords" : [ "ggplot2, viridis, ggstatsplot" ],
+  "mainEntityOfPage" : "https:\/\/ukarcodeclub.netlify.app\/post\/exp_livecell_html\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/ukarcodeclub.netlify.app\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/ukarcodeclub.netlify.app\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Data Visualization" />
+<meta property="og:description" content="Create Plots including Results from Statistical Tests">
+<meta property="og:image" content="https://ukarcodeclub.netlify.app/img/avatar-icon.png" />
+<meta property="og:url" content="https://ukarcodeclub.netlify.app/post/exp_livecell_html/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="UKA R Code Club Test" />
+
+  <meta name="twitter:title" content="Data Visualization" />
+  <meta name="twitter:description" content="Create Plots including Results from Statistical Tests">
+  <meta name="twitter:image" content="https://ukarcodeclub.netlify.app/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://ukarcodeclub.netlify.app/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.111.3">
+  <link rel="alternate" href="https://ukarcodeclub.netlify.app/index.xml" type="application/rss+xml" title="UKA R Code Club Test"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://ukarcodeclub.netlify.app/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://ukarcodeclub.netlify.app/css/highlight.min.css" /><link rel="stylesheet" href="https://ukarcodeclub.netlify.app/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://ukarcodeclub.netlify.app/">UKA R Code Club Test</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="UKA R Code Club Test" href="https://ukarcodeclub.netlify.app/">
+            <img class="avatar-img" src="https://ukarcodeclub.netlify.app/img/avatar-icon.png" alt="UKA R Code Club Test" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Data Visualization</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Create Plots including Results from Statistical Tests</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on March 22, 2023
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;271&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Ramona Jühlen
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">opts_chunk</span><span class="o">$</span><span class="nf">set</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="n">echo</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">message</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">warning</span> <span class="o">=</span> <span class="kc">FALSE</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><h2 id="here-package">here package</h2>
+<p><img src="https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/here.png" alt=""></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="s">&#34;here&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># getwd()</span>
+</span></span></code></pre></div><h2 id="ggplot2">ggplot2</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">results</span> <span class="o">&lt;-</span> <span class="nf">read.csv</span><span class="p">(</span><span class="s">&#34;results.csv&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#plot mean and SE of data</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">timepoint</span><span class="p">,</span> <span class="n">normalized_area</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="n">construct</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">labs</span><span class="p">(</span><span class="n">y</span> <span class="o">=</span> <span class="s">&#34;y&#34;</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s">&#34;x&#34;</span><span class="p">)</span> <span class="o">+</span>  <span class="nf">ggtitle</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">guides</span><span class="p">(</span><span class="n">colour</span> <span class="o">=</span> <span class="nf">guide_legend</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">stat_summary</span><span class="p">(</span><span class="n">fun</span> <span class="o">=</span> <span class="n">mean</span><span class="p">,</span> <span class="n">geom</span> <span class="o">=</span> <span class="s">&#34;line&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">stat_summary</span><span class="p">(</span><span class="n">fun.data</span> <span class="o">=</span> <span class="n">mean_se</span><span class="p">,</span> <span class="n">geom</span> <span class="o">=</span> <span class="s">&#34;pointrange&#34;</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="m">0.25</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span>
+</span></span></code></pre></div><img src="/post/220323 - Data Visualization/exp_livecell_html_files/figure-html/ggplot2-1.png" width="672" />
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">#lay out panels in a grid</span>
+</span></span><span class="line"><span class="cl"><span class="n">s</span> <span class="o">&lt;-</span> <span class="n">r</span> <span class="o">+</span> <span class="nf">facet_grid</span><span class="p">(</span><span class="n">cols</span> <span class="o">=</span> <span class="nf">vars</span><span class="p">(</span><span class="n">rapa</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">s</span>
+</span></span></code></pre></div><img src="/post/220323 - Data Visualization/exp_livecell_html_files/figure-html/ggplot2-2.png" width="672" />
+<h2 id="viridis-package">viridis package</h2>
+<p>Colorblind-friendly color maps</p>
+<p>More info <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">here</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">viridis</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#viridis uses sequential but ggplot2 needs discrete color maps (use paletteer)</span>
+</span></span><span class="line"><span class="cl"><span class="n">palette</span> <span class="o">&lt;-</span> <span class="n">paletteer</span><span class="o">::</span><span class="nf">paletteer_c</span><span class="p">(</span><span class="s">&#34;viridis::viridis&#34;</span><span class="p">,</span> <span class="m">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">t</span> <span class="o">&lt;-</span> <span class="n">s</span> <span class="o">+</span> <span class="nf">scale_color_manual</span><span class="p">(</span><span class="n">values</span> <span class="o">=</span> <span class="n">palette</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">t</span>
+</span></span></code></pre></div><img src="/post/220323 - Data Visualization/exp_livecell_html_files/figure-html/viridis-1.png" width="672" />
+<h2 id="ggstatsplot-package">ggstatsplot package</h2>
+<p>Extension of ggplot2 package with details from statistical tests</p>
+<p>Much more to explore <a href="https://indrajeetpatil.github.io/ggstatsplot/index.html">here</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">ggstatsplot</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#filter data</span>
+</span></span><span class="line"><span class="cl"><span class="n">results_filtered</span> <span class="o">&lt;-</span> <span class="n">dplyr</span><span class="o">::</span><span class="nf">filter</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">timepoint</span> <span class="o">==</span> <span class="m">30</span><span class="p">,</span> <span class="n">rapa</span> <span class="o">==</span> <span class="s">&#34;w&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#ggstatsplot</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#for reproducibility</span>
+</span></span><span class="line"><span class="cl"><span class="nf">set.seed</span><span class="p">(</span><span class="m">123</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#plot filtered data</span>
+</span></span><span class="line"><span class="cl"><span class="n">p</span> <span class="o">&lt;-</span> <span class="nf">ggbetweenstats</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="n">data</span> <span class="o">=</span> <span class="n">results_filtered</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">x</span> <span class="o">=</span> <span class="n">construct</span><span class="p">,</span> <span class="c1">## grouping/independent variable</span>
+</span></span><span class="line"><span class="cl">  <span class="n">y</span> <span class="o">=</span> <span class="n">normalized_area</span><span class="p">,</span> <span class="c1">## dependent variables</span>
+</span></span><span class="line"><span class="cl">  <span class="n">grouping.var</span> <span class="o">=</span> <span class="n">construct</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">type</span> <span class="o">=</span> <span class="s">&#34;np&#34;</span><span class="p">,</span> <span class="c1">## type of statistics</span>
+</span></span><span class="line"><span class="cl">  <span class="n">xlab</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">,</span> <span class="c1">## label for the x-axis</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ylab</span> <span class="o">=</span> <span class="s">&#34;y&#34;</span><span class="p">,</span> <span class="c1">## label for the y-axis</span>
+</span></span><span class="line"><span class="cl">  <span class="n">plot.type</span> <span class="o">=</span> <span class="s">&#34;violin&#34;</span><span class="p">,</span> <span class="c1">## type of plot</span>
+</span></span><span class="line"><span class="cl">  <span class="n">outlier.tagging</span> <span class="o">=</span> <span class="bp">F</span><span class="p">,</span> <span class="c1">## whether outliers should be flagged</span>
+</span></span><span class="line"><span class="cl">  <span class="n">outlier.coef</span> <span class="o">=</span> <span class="m">1.5</span><span class="p">,</span> <span class="c1">## coefficient for Tukey&#39;s rule</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ggtheme</span> <span class="o">=</span> <span class="n">ggplot2</span><span class="o">::</span><span class="nf">theme_bw</span><span class="p">(),</span> <span class="c1">## a different theme</span>
+</span></span><span class="line"><span class="cl">  <span class="n">package</span> <span class="o">=</span> <span class="s">&#34;ggsci&#34;</span><span class="p">,</span> <span class="c1">## package from which color palette is to be taken</span>
+</span></span><span class="line"><span class="cl">  <span class="n">palette</span> <span class="o">=</span> <span class="s">&#34;uniform_startrek&#34;</span><span class="p">,</span> <span class="c1">## choosing a different color palette</span>
+</span></span><span class="line"><span class="cl">  <span class="n">title</span> <span class="o">=</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">p</span>
+</span></span></code></pre></div><img src="/post/220323 - Data Visualization/exp_livecell_html_files/figure-html/ggstatsplot-1.png" width="672" />
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">#viridis uses sequential but ggstatsplot needs discrete color maps (use paletteer)</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span> <span class="o">&lt;-</span> <span class="n">p</span> <span class="o">+</span> <span class="nf">scale_color_manual</span><span class="p">(</span><span class="n">values</span> <span class="o">=</span> <span class="n">palette</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span>
+</span></span></code></pre></div><img src="/post/220323 - Data Visualization/exp_livecell_html_files/figure-html/ggstatsplot-2.png" width="672" />
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://ukarcodeclub.netlify.app//tags/ggplot2/">ggplot2</a>&nbsp;
+            
+              <a href="https://ukarcodeclub.netlify.app//tags/viridis/">viridis</a>&nbsp;
+            
+              <a href="https://ukarcodeclub.netlify.app//tags/ggstatsplot/">ggstatsplot</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:rpauli@ukaachen.de" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/paulirom" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Roman Pauli
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2023
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://ukarcodeclub.netlify.app/">UKA R Code Club Test</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.111.3</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://ukarcodeclub.netlify.app/js/main.js"></script>
+<script src="https://ukarcodeclub.netlify.app/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://ukarcodeclub.netlify.app/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
