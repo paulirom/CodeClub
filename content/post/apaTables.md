@@ -5,6 +5,9 @@ author: Roman Pauli
 date: 2023-04-06
 categories: ["Tables"]
 tags: ["apaTables", "correlation", "regression"]
+    toc: true
+    toc_float:
+      collapsed: false
 ---
 
 Many journals require authors to report results in the style required by
