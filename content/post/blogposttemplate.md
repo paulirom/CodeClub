@@ -15,6 +15,18 @@ first few sentences will be previewed on the main page. I therefore
 suggest that you use this section to paraphrase in a few words what the
 reader of this post can expect.
 
+These are the steps to follow to contribute your post to the weblog:
+
+  - go to the shared project repository (Blogdown > CodeClub >content > post) 
+  - copy and paste *blogposttemplate.md* and rename it according to your contribution
+  - change *title*, *subtitle*, *author*, *date*, *categories* and *tags*
+  - change the contents of and/or add code to that *.md*
+  - done! Your contribution will be posted with the next update of the weblog.
+
+\
+
+# How this Template works
+
 Lines 1 to 9 have the YAML header for this post. Everything in between
 and including the two sets of “- - -” is essential for this document to
 work as a post on the weblog. Use lines 2 to 4 to specify your *title*,
@@ -24,7 +36,7 @@ to your post will automatically be listed in the index of the weblog.
 Please leave the *output* command as is, as the resulting *.md* file is
 the one that will be used to render your contribution in the weblog.
 
-  
+\
 
 # Use Section Headers
 
