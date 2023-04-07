@@ -14,4 +14,4 @@ As a member of the UKA R Code Club, you can contribute to this weblog by followi
   - change the contents of and/or add code to that *.md*
   - done! Your contribution will be posted with the next update of the weblog.
   
-This weblog was created with R [blogdown](https://pkgs.rstudio.com/blogdown/), pushed to [Github](https://github.com/paulirom/CodeClub) and published via [Netlify](https://www.netlify.com/).
+This weblog was created with R [blogdown](https://pkgs.rstudio.com/blogdown/), pushed to [Github](https://github.com/paulirom/CodeClub) and published via [Netlify](https://www.netlify.com/). 
