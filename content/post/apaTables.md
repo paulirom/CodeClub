@@ -1,11 +1,3 @@
----
-title: APA-Style Tables
-subtitle: Create APA-Style Correlation and Regression Tables
-author: Roman Pauli
-date: 2023-04-07
-tags: ["apaTables", "correlation", "regression"]
----
-
 Many journals require authors to report results in the style required by
 the American Psychological Association (APA Style).  
 The **apaTables** package creates .doc files with tables that conform to
@@ -30,7 +22,15 @@ Let’s save the **goggles** data set to an object we call **d** and have
 a look at the few top rows.
 
     d <- goggles
-    View(d)
+    head(d)
+
+    ##   participant gender alcohol attractiveness
+    ## 1           1 Female    None             65
+    ## 2           2 Female    None             70
+    ## 3           3 Female    None             60
+    ## 4           4 Female    None             60
+    ## 5           5 Female    None             60
+    ## 6           6 Female    None             55
 
 The Variables *gender* and *alcohol* are characters, i.e. they contain
 letters instead of numbers. Since we want to do some simple statistical
@@ -83,7 +83,7 @@ As a result, we get Means, Standard Deviations and Correlations with
 Confidence Intervals neatly arranged in APA-style and saved as a
 word.doc to our working directory.
 
-![Table 1: Correlations of Study Variables](https://raw.githubusercontent.com/paulirom/CodeClub/main/Table1_APA.png)
+![Table 1: Correlations of Study Variables](Table1_APA.png)
 
 ### Regression table
 
@@ -124,7 +124,7 @@ and saved as a word.doc.
 
     apa.reg.table(our.model, filename = "Table2_APA.doc", table.number = 2)
 
-![Table 2: Regression Results](https://raw.githubusercontent.com/paulirom/CodeClub/main/Table2_APA.png)
+![Table 2: Regression Results](Table2_APA.png)
 
 Note that our original model summary did not include standardized (i.e.,
 beta) weights, but only unstandardized regression (i.e., b) weights. It

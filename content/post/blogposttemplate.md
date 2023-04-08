@@ -4,7 +4,6 @@ subtitle: Use this Template to create a Post
 author: Roman Pauli
 date: 2023-04-06
 tags: ["markdown", "template"]
-output: md_document
 ---
 
 This template can be used to create weblog posts with minimal effort. It
