@@ -12,7 +12,7 @@ This template can be used to create weblog posts with minimal effort. It contain
 
 Lines 1 to 9 have the YAML header for this post. Everything in between and including the two sets of "- - -" is essential for this document to work as a post on the weblog. Use lines 2 to 4 to specify your *title*, *subtitle* and *author* details. If you specify a *date* in the future, the post will appear online only after that date. The *tags* you assign to your post will automatically be listed in the index of the weblog. Please leave the *output* command as is, as the resulting *.md* file is the one that will be used to render your contribution in the weblog.
 
-\
+  
 
 # Use Section Headers
 
@@ -22,7 +22,7 @@ Use *#* to create section headers. The number of *#* you use will indicate the s
 ### This is a level 3 header
 #### This is a level 4 header
 
-\
+  
 
 # Include Code Sections
 
@@ -52,7 +52,7 @@ head(data)
 ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 ```
 
-\
+  
 
 # Include Images and Figures
 
@@ -68,7 +68,7 @@ Images and Figures can easily be linked using a combination of square brackets a
 However, this only works if the image is located in the same directory as the page that will use the image. In most cases, this is the working directory of your R project.
 An easy fix is to first upload the image to the weblog's Github folder and from there reference it via hyperlink.
 
-\
+  
 
 # Include Hyperlinks to Additional Resources
 
