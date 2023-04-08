@@ -81,6 +81,8 @@ Square brackets followed by parentheses is markdowns syntax for hyperlinks:
   
 To learn more, have a look at the [markdown reference guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf).
 
+  
+
 # Contribute your .md to the blog
 
-Check the instructions on the [About](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) to learn how to contribute your .md to the blog.
+Check the instructions on the [About](https://ukarcodeclub.netlify.app/page/about/) page to learn how to contribute your .md to the blog.
