@@ -1,3 +1,12 @@
+---
+title: APA-Style Tables
+subtitle: Create APA-Style Correlation and Regression Tables
+author: Roman Pauli
+date: 2023-04-19
+categories: ["Tables"]
+tags: ["apaTables", "correlation", "regression"]
+---
+
 Many journals require authors to report results in the style required by
 the American Psychological Association (APA Style).  
 The **apaTables** package creates .doc files with tables that conform to
