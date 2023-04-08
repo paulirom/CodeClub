@@ -92,7 +92,7 @@ As a result, we get Means, Standard Deviations and Correlations with
 Confidence Intervals neatly arranged in APA-style and saved as a
 word.doc to our working directory.
 
-![Table 1: Correlations of Study Variables](Table1_APA.png)
+![Table 1: Correlations of Study Variables](https://github.com/paulirom/CodeClub/blob/main/Table1_APA.png?raw=true)
 
 ### Regression table
 
@@ -133,7 +133,7 @@ and saved as a word.doc.
 
     apa.reg.table(our.model, filename = "Table2_APA.doc", table.number = 2)
 
-![Table 2: Regression Results](Table2_APA.png)
+![Table 2: Regression Results](https://github.com/paulirom/CodeClub/blob/main/Table2_APA.png?raw=true)
 
 Note that our original model summary did not include standardized (i.e.,
 beta) weights, but only unstandardized regression (i.e., b) weights. It
