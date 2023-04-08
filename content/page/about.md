@@ -8,13 +8,13 @@ This weblog is meant to document the activities of the **ukaR Code Club**. We ar
 
 As a member of the ukaR Code Club, you can contribute to this weblog by following these simple steps:
 
-  - go to the shared project repository (Blogdown > CodeClub >content > post > blogpost template) 
+  - go to the shared project repository (Blogdown > CodeClub > content > post > blogpost template)
   - open *blogposttemplate.Rmd*
   - change *title*, *subtitle*, *author*, *date*, *categories* and *tags*
   - change the contents and/or add code
-  - knit it! *blogposttemplate.md* will appear in the blogpost template folder
+  - knit it! *blogposttemplate.md* will appear in the *blogpost template* folder
   - renamde that *.md*
   - done! Your contribution will be posted with the next update of the weblog
 
   
-This weblog was created with R [blogdown](https://pkgs.rstudio.com/blogdown/), pushed to [Github](https://github.com/paulirom/CodeClub) and published via [Netlify](https://www.netlify.com/). It's maintained by Roman Pauli; please click the envelope to report any bugs.
+This weblog was created with R [Blogdown](https://pkgs.rstudio.com/blogdown/), pushed to [Github](https://github.com/paulirom/CodeClub) and published via [Netlify](https://www.netlify.com/). It's maintained by Roman Pauli; please click the envelope below to report any bugs.
