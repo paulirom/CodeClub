@@ -29,12 +29,12 @@ Author:
   name: Roman Pauli
 menu:
   main:
-    - name: Blog
-      url: ''
-      weight: 1
     - name: About
       url: page/about/
       weight: 3
+    - name: Blog
+      url: ''
+      weight: 1
     - name: Tags
       url: tags
       weight: 3
