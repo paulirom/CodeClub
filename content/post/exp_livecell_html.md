@@ -6,7 +6,7 @@ data with ggplot, especially laying out plots in different grids and
 using the colorblind-friendly palette viridis.
 
     library(knitr)
-    opts_chunk$set(
+    knitr::opts_chunk$set(
         echo = TRUE,
         message = FALSE,
         warning = FALSE
@@ -19,8 +19,6 @@ using the colorblind-friendly palette viridis.
     library("here")
 
     getwd()
-
-    ## [1] "C:/Users/rpauli/Uniklinik RWTH Aachen/Lang, Jessica - OHP/R CodeClub/220323 - Data Visualization"
 
 ## ggplot2
 
