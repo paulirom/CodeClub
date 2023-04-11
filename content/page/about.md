@@ -4,7 +4,7 @@ title: ukaR Code Club
 subtitle: Dear fellow CodeClubbers!
 ---
 
-This weblog is meant to document the activities of the **ukaR Code Club**. We are a group of R users from different institutes and clinics at Uniklinik RWTH Aachen. We organize regular Code Club Sessions to share and discuss our experiences with R and learn from each other. Our main goal is to improve our skills in data wrangling and statistical analysis with R.
+This weblog is meant to document the activities of the **ukaR Code Club**. We are a group of R users from different institutes and clinics at Uniklinik RWTH Aachen. We organize regular Code Club Sessions to share and discuss our experiences with R and learn from each other. Our main goal is to improve our skills in data wrangling and statistical analysis with R, primarily in the analysis of studies with human subjects.
 
 As a member of the ukaR Code Club, you can contribute to this weblog by following these simple steps:
 
