@@ -26,7 +26,6 @@ Params:
 Author:
   email: rpauli@ukaachen.de
   github: paulirom
-  name: Roman Pauli
 menu:
   main:
     - name: About
