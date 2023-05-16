@@ -1,3 +1,11 @@
+---
+title: Data Visualization
+subtitle: Create Plots including Results from Statistical Tests
+author: Ramona Jühlen
+date: 2023-03-22
+tags: ["ggplot2", "viridis", "ggstatsplot"]
+---
+
 In this post I introduce the R package *here* which enables you to get
 rid of the common approach *setwd()*. *here* uses the top-level
 directory for the file you are working on, and does not depend on your
