@@ -1,21 +1,14 @@
----
-title: Data Visualization
-subtitle: Create Plots including Results from Statistical Tests
-author: Ramona Jühlen
-date: 2023-03-22
-tags: ["here", "ggplot2", "ggstatsplot"]
----
+In this post I introduce the R package *here* which enables you to get
+rid of the common approach *setwd()*. *here* uses the top-level
+directory for the file you are working on, and does not depend on your
+file organization. Moreover, I will show you some tricks on plotting
+your data with *ggplot*, especially laying out plots in different grids
+using the colorblind-friendly palette *viridis*.
 
-In this post I introduce the R package “here” which enables you to get
-rid of the common approach setwd(). “Here” uses the top-level directory
-for the file you are working on and does not depend on your file
-organization. Moreover, I will show you some tricks on plotting your
-data with ggplot, especially laying out plots in different grids and
-using the colorblind-friendly palette viridis.
+**Enjoy!**
 
     library(knitr)
     knitr::opts_chunk$set(
-        echo = TRUE,
         message = FALSE,
         warning = FALSE
     )
