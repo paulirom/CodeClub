@@ -9,11 +9,10 @@ This weblog is meant to document the activities of the **ukaR Code Club**. We ar
 As a member of the ukaR Code Club, you can contribute to this weblog by following these simple steps:
 
   - go to the shared project repository (Blogdown > CodeClub > content > post > blogpost template)
-  - open *blogposttemplate.Rmd*
+  - open *blogposttemplate.md*
   - change *title*, *subtitle*, *author*, *date*, *categories* and *tags*
   - change the contents and/or add code
-  - knit it! *blogposttemplate.md* will appear in the *blogpost template* folder
-  - rename that *.md*
+  - choose a filename and save as *filename.md* to the *blogpost template* folder
   - done! Your contribution will be posted with the next update of the weblog
 
   
