@@ -11,14 +11,6 @@ This is an example for a general linear mixed model. Study details can be found 
 
 https://doi.org/10.1016/j.concog.2023.103493
 
----
-title: "General Linear Mixed Models in R"
-output: html_notebook
----
-This is an example for a general linear mixed model. Study details can be found here:
-
-https://doi.org/10.1016/j.concog.2023.103493
-
 # Study design
 
 ![A = Study 1; B = Study 2](https://user-images.githubusercontent.com/54576554/204008729-5d3d16d1-6b93-4a4b-96ca-2b17e66a0614.png)
