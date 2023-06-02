@@ -12,7 +12,7 @@ As a member of the ukaR Code Club, you can contribute to this weblog by followin
   - open *blogposttemplate.md*
   - change *title*, *subtitle*, *author*, *date*, *categories* and *tags*
   - change the contents and/or add code
-  - choose a filename and save as *filename.md* to the *blogpost template* folder
+  - choose a filename and save as *filename.md* to the *content/post* folder
   - done! Your contribution will be posted with the next update of the weblog
 
   
