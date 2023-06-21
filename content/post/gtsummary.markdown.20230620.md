@@ -2,7 +2,7 @@
 title: "gtsummary code club 21.7.23"
 author: "Stella Glasmacher"
 date: "2023-06-20"
-output: html_document
+output: md_document
 ---
 
 ### Introduction to gtsummary
