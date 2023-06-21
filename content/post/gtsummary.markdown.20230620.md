@@ -1,8 +1,10 @@
 ---
-title: "gtsummary code club 21.7.23"
-author: "Stella Glasmacher"
-date: "2023-06-20"
+title: gtsummary code club 21.7.23
+subtitle: Using the gtsummary package to create manuscript-ready tables
+author: Stella Glasmacher
+date: "2023-06-21
 output: md_document
+tags: ["regression", "correlation", "tables", "data preparation"]
 ---
 
 ### Introduction to gtsummary
