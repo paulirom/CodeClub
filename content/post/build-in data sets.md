@@ -19,7 +19,7 @@ R comes with built-in data sets we can explore and use for our code examples. To
 data()
 ```
 
-![data sets in package 'datasets'](LINK!)
+![data sets in package 'datasets'](https://github.com/paulirom/CodeClub/blob/main/content/post/build-in%20data%20set%20files/data().png?raw=true)
 
 The list also includes a brief description for each data set. If we want to learn more about individual data sets, say for example the `ChickWeight` data set, we can type
 
@@ -27,7 +27,7 @@ The list also includes a brief description for each data set. If we want to lear
 ?ChickWeight
 ```
 
-![R documentation on ChickWeight data set](LINK!)
+![R documentation on ChickWeight data set](https://github.com/paulirom/CodeClub/blob/main/content/post/build-in%20data%20set%20files/ChickWeightdata.png?raw=true)
 
 From the Help window, we can see that the `ChickWeight` data set comes with four columns
 
@@ -47,7 +47,7 @@ If we want, for example, check which data sets come with the `ggplot2` package, 
 data(package="ggplot2")
 ```	
 
-![data sets in package 'ggplot2'](LINK!)
+![data sets in package 'ggplot2'](https://github.com/paulirom/CodeClub/blob/main/content/post/build-in%20data%20set%20files/ggplot2data.png?raw=true)
 
 
 To access a data set available in a package, we can either call the data set after the package was activated or we use the pattern *packageName::datasetName*.
