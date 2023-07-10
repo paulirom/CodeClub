@@ -1,7 +1,7 @@
 ---
 title: General Linear Mixed Models in R
 subtitle: 
-author: Julia SchrÃ¤der
+author: Julia Schräder
 date: 2023-04-19
 tags: ["General Linear Mixed Models", "lmer4"]
 output: md_document
@@ -36,7 +36,7 @@ library(interactions)
 
 
 ```{r}
-data <- read.csv("Path/GLMM_Model1_data.csv")
+data <- read.csv("C:/Users/juhoffmann/Desktop/RCode/GLMM_Model1_data.csv")
 head(data)
 ```
 
@@ -207,12 +207,12 @@ summary(Model1.study1)
 To report results, you can export the anova as csv document. Choose type II anova if your model includes NO interaction effects. With interactions, choose type III anova. 
 
 ```{r}
-anova.s<-anova(Model, type = 2, ddf= "Kenward-Roger")
+anova.s<-anova(Model1.study1, type = 2, ddf= "Kenward-Roger")
 print(anova.s)
 
 write_excel_csv(anova.s,
                 delim = ";",
-                "Path/GLMModel_anova.csv")
+                "C:/Users/juhoffmann/Desktop/RCode/GLMModel_anova.csv")
 ```
 
 
