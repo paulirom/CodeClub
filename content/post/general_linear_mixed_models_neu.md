@@ -1,9 +1,9 @@
 ---
 title: General Linear Mixed Models in R
-subtitle: 
+subtitle: Example of a GLMM using lme4
 author: Julia Schräder
 date: 2023-04-19
-tags: ["General Linear Mixed Models", "lmer4"]
+tags: ["General Linear Mixed Model", "lme4", "R"]
 output: md_document
 ---
 
@@ -13,11 +13,11 @@ The script uses a dataset from this study:
 
 https://doi.org/10.1016/j.concog.2023.103493
 
-# study design
+# Study design
 
 ![A = Study 1; B = Study 2](https://user-images.githubusercontent.com/54576554/204008729-5d3d16d1-6b93-4a4b-96ca-2b17e66a0614.png)
 
-# load packages
+# Load packages
 
 
 ```{r}
@@ -25,22 +25,22 @@ library(lme4)         # mixed model package
 library(lmerTest)     # library providing p-values for mixed models in lme4
 library(readxl)       # read excel
 library(ggplot2)      # graphics
-library(tidyverse)    # library with various tools (e.g. ggplot, pivot_long, pipes etc.)
+#library(tidyverse)    # library with various tools (e.g. ggplot, pivot_long, pipes etc.)
 library(emmeans)      # library for post-hoc tests
 library(pbkrtest)     # needed for post-hoc tests in mixed models
 library(jtools)       # post hoc tests
 library(interactions) 
 ```
 
-# load the dataset:
+# Load the dataset:
 
 
 ```{r}
-data <- read.csv("C:/Users/juhoffmann/Desktop/RCode/GLMM_Model1_data.csv")
+data <- read.csv("Path/GLMM_Model1_data.csv")
 head(data)
 ```
 
-# remove missing values:
+# Remove missing values:
 
 
 ```{r}
@@ -210,13 +210,13 @@ To report results, you can export the anova as csv document. Choose type II anov
 anova.s<-anova(Model1.study1, type = 2, ddf= "Kenward-Roger")
 print(anova.s)
 
-write_excel_csv(anova.s,
-                delim = ";",
-                "C:/Users/juhoffmann/Desktop/RCode/GLMModel_anova.csv")
+#write_excel_csv(anova.s,
+#                delim = ";",
+#                "C:/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Code/GLMModel_anova.csv")
 ```
 
 
-## plot effects
+## Plot effects
 
 With `allEffects` you can estimates all effects included in your model. These effects can be plotted in one graph:
 
