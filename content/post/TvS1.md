@@ -28,7 +28,7 @@ grammar**! Which means that the language can be very intuitive even for
 non-coders and beginners.
 
 
-![Figure 1: Basics of the tidyverse and its core packages](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig1.png)
+![Figure 1: Basics of the tidyverse and its core packages](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig1.png?raw=true)
 
 width="562"
 
@@ -269,9 +269,9 @@ While Base-R already contains options to import data as .csv to R, the
 tidyverse equivalent “readr” offers some additional quality-of-life
 improvements. Let’s look at a dataset from a fictional study.
 
-<img src="fig2.PNG" width="424" />
+![Figure 2: Rawdata (Excel)](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig2.PNG?raw=true)
 
-*Figure 2: Rawdata (Excel)*
+width="424" />
 
 To import this dataset, we can either write the code manually, or go to
 the <span style="color: #339fff;">***Environment***</span> (upper-right
@@ -287,9 +287,7 @@ data structure in e.g. Excel, we can simply tell readr to skip \[2\] the
 first 2 rows. We can also change the delimiter \[3\] of each column to
 semicolon (“;”) or tell readr how to handle missing or NA-values.
 
-![](fig3.png)
-
-*Figure 3: Importing data with readr*
+![Figure 3: Importing data with readr](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig3.png?raw=true)
 
 Once we’re happy with the data, we can either directly import it into R
 (which results in a new tibble under the name set under \[1\]), or - if
