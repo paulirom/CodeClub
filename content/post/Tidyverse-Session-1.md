@@ -5,6 +5,7 @@ date: 2024-08-07
 tags: ["tidyverse", "tibbles", "pipe operator"]
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
