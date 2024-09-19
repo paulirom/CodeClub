@@ -30,6 +30,8 @@ non-coders and beginners.
 
 ![Figure 1: Basics of the tidyverse and its core packages](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig1.png?raw=true)
 
+* Figure 1: Basics of the tidyverse and its core packages *
+
 When installing the tidyverse, all 20+ packages of the tidyverse will
 automatically get installed as well. Therefore, packages like “magrittr”
 can be called directly without the need to separately install them.
@@ -268,6 +270,8 @@ improvements. Let’s look at a dataset from a fictional study.
 
 ![Figure 2: Rawdata (Excel)](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig2.PNG?raw=true)
 
+* Figure 2: Rawdata (Excel) *
+
 To import this dataset, we can either write the code manually, or go to
 the <span style="color: #339fff;">***Environment***</span> (upper-right
 window) click on <span style="color: #339fff;">“***Import
@@ -283,6 +287,8 @@ first 2 rows. We can also change the delimiter \[3\] of each column to
 semicolon (“;”) or tell readr how to handle missing or NA-values.
 
 ![Figure 3: Importing data with readr](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig3.png?raw=true)
+
+* Figure 3: Importing data with readr *
 
 Once we’re happy with the data, we can either directly import it into R
 (which results in a new tibble under the name set under \[1\]), or - if
