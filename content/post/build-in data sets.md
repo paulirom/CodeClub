@@ -1,10 +1,15 @@
 ---
-title: Data for Reproducible Examples - Part I -Test
-subtitle: Use built-in data sets for code examples
-author: Roman Pauli
-date: 2023-06-21
-tags: ["data simulation", "build-in data", "data sets"]
-output: html_document
+title: "Data for Reproducible Examples - Part I -Test"
+author: "Roman Pauli"
+date: "2023-06-21"
+output:
+  html_document: default
+  pdf_document: default
+tags:
+- data simulation
+- "build-in data"
+- data sets
+subtitle: "Use built-in data sets for code examples"
 ---
 
 
