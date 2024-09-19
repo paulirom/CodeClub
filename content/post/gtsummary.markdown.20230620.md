@@ -1,8 +1,8 @@
 ---
-title: Createcreate manuscript-ready tables with gtsummary
+title: Tables with gtsummary
 subtitle: Using the gtsummary package to create manuscript-ready tables
 author: Stella Glasmacher
-date: 2023-06-21
+date: 2023-05-17
 output: md_document
 tags: ["regression", "correlation", "tables", "data preparation"]
 ---

@@ -8,12 +8,6 @@ output: html_document
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-------------------------------------------------------------------------
-
 ## 1.1 General principle
 
 The "tidyverse" is one of the most versatile and powerful packages of R and it has become an indispensable tool for many people working with R. But what is the tidyverse and what makes it so magical?
