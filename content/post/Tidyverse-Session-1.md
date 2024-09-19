@@ -1,6 +1,6 @@
 ---
 title: Tidyverse, Session 1
-subtitle: : Getting started with Tidyverse
+subtitle: Getting started with Tidyverse
 author: Nicolas Nusser
 date: 2024-08-07
 tags: ["tidyverse", "tibbles", "pipe operator"]
