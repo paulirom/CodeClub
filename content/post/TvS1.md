@@ -30,9 +30,6 @@ non-coders and beginners.
 
 ![Figure 1: Basics of the tidyverse and its core packages](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig1.png?raw=true)
 
-width="562"
-
-
 When installing the tidyverse, all 20+ packages of the tidyverse will
 automatically get installed as well. Therefore, packages like “magrittr”
 can be called directly without the need to separately install them.
@@ -270,8 +267,6 @@ tidyverse equivalent “readr” offers some additional quality-of-life
 improvements. Let’s look at a dataset from a fictional study.
 
 ![Figure 2: Rawdata (Excel)](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig2.PNG?raw=true)
-
-width="424" />
 
 To import this dataset, we can either write the code manually, or go to
 the <span style="color: #339fff;">***Environment***</span> (upper-right
