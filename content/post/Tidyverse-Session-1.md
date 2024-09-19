@@ -16,9 +16,8 @@ The tidyverse is a collection of packages (9 core packages, \~ 25 total packages
 
 But what really makes the tidyverse so great is its philosophy: it's a **coding-language with very good and easy readability and coherent grammar**! Which means that the language can be very intuitive even for non-coders and beginners.
 
-![](fig1.png){width="562"}
+![Figure 1: Basics of the tidyverse and its core packages](fig1.png){width="562"}
 
-*Figure 1: Basics of the tidyverse and its core packages*
 
 When installing the tidyverse, all 20+ packages of the tidyverse will automatically get installed as well. Therefore, packages like "magrittr" can be called directly without the need to separately install them.
 
