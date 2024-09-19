@@ -1,14 +1,11 @@
 ---
-title: Tidyverse, Session 1: Getting started
+title: Tidyverse, Session 1
+subtitle: : Getting started with Tidyverse
 author: Nicolas Nusser
 date: 2024-08-07
 tags: ["tidyverse", "tibbles", "pipe operator"]
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ------------------------------------------------------------------------
 
