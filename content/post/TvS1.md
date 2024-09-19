@@ -27,9 +27,11 @@ But what really makes the tidyverse so great is its philosophy: it’s a
 grammar**! Which means that the language can be very intuitive even for
 non-coders and beginners.
 
-<img src="fig1.png" width="562" />
 
-*Figure 1: Basics of the tidyverse and its core packages*
+![Figure 1: Basics of the tidyverse and its core packages](https://github.com/paulirom/CodeClub/blob/main/content/post/Tidyverse%20Session%20I%20files/fig1.png)
+
+width="562"
+
 
 When installing the tidyverse, all 20+ packages of the tidyverse will
 automatically get installed as well. Therefore, packages like “magrittr”
