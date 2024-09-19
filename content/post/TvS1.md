@@ -1,3 +1,11 @@
+---
+title: Tidyverse Session I 
+subtitle: Getting started with Tidyverse
+author: Nicolas Nusser
+date: 2023-08-07
+tags: ["tidyverse", "tibbles", "data import", "pipe operator"]
+---
+
 ------------------------------------------------------------------------
 
 ## 1.1 General principle
