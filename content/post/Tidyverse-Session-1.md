@@ -4,8 +4,13 @@ subtitle: : Getting started with Tidyverse
 author: Nicolas Nusser
 date: 2024-08-07
 tags: ["tidyverse", "tibbles", "pipe operator"]
+output: html_document
 ---
 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ------------------------------------------------------------------------
 
