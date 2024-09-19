@@ -1,5 +1,5 @@
 ---
-title: Tidyverse, Session 1
+title: Tidyverse, Session I
 subtitle: Getting started with Tidyverse
 author: Nicolas Nusser
 date: 2024-08-07
