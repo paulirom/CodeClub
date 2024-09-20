@@ -2,7 +2,7 @@
 title: Tidyverse Session I 
 subtitle: Getting started with Tidyverse
 author: Nicolas Nusser
-date: 2023-08-07
+date: 2024-08-07
 tags: ["tidyverse", "tibbles", "data import", "pipe operator"]
 editor_options: 
   markdown: 
