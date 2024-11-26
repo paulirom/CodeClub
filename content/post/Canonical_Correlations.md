@@ -1,16 +1,12 @@
 ---
 title: Canonical Correlations
 subtitle: Example of canonical correlation analysis with speech and brain data
-author: Julia Schr‰der
-date: 2024-010-30
+author: Julia Schr√§der
+date: 2024-10-30
 tags: ["markdown", "template"]
-output: md_document
 ---
 
----
-title: "Canonical Correlations"
-output: html_notebook
----
+
 
 Canonical correlation analysis (CCA) is a powerful statistical technique used to explore and quantify the relationships between two sets of multidimensional variables.
 Developed by Harold Hotelling in the 1930s, CCA extends the concept of correlation beyond pairs of variables to entire sets, enabling researchers to examine how patterns in one variable set (such as psychological attributes) relate to patterns in another (like physiological measures).
