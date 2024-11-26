@@ -3,7 +3,7 @@ title: Canonical Correlations
 subtitle: Example of canonical correlation analysis with speech and brain data
 author: Julia Schräder
 date: 2024-10-30
-tags: ["markdown", "template"]
+tags: ["correlation", "analysis", "data wrangling"]
 ---
 
 
